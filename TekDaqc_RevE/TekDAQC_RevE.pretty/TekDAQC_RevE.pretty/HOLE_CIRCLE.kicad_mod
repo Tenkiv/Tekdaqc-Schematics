@@ -1,9 +1,0 @@
-(module HOLE_CIRCLE (layer F.Cu) (tedit 0)
-  (fp_text reference NAME** (at 0 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.15)))
-  )
-  (fp_text value "" (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 3.401059 3.401059) (drill 3.401059) (layers *.Cu))
-)
