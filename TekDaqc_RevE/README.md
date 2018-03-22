@@ -6,7 +6,7 @@ Folder contains all necessary files to open and make changes to the schematic an
 
 *.lib - contains the components used in the schematic 
 
-*.brd - pcb file
+*.kicad_pcb - pcb file
 
 *.pretty - contains the files of the footprints used in the pcb file
 
