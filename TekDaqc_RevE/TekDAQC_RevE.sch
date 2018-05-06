@@ -1,34 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:TekDAQC_RevE-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:TekDAQC_RevE
 LIBS:TekDAQC_RevE-cache
 EELAYER 25 0
@@ -1530,7 +1500,7 @@ Text GLabel 1550 4550 0    60   Input ~ 0
 ADC3_IN5
 Text GLabel 1850 4650 0    60   Input ~ 0
 GPI16
-Text GLabel 4650 8655 3    60   Input ~ 0
+Text GLabel 1845 4750 0    60   Input ~ 0
 GPI4
 Text GLabel 1550 4950 0    60   Input ~ 0
 ETH_RMII_MDC
@@ -2162,7 +2132,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4150 1850 4150
 Wire Wire Line
-	4650 8150 4650 8655
+	2050 4750 1845 4750
 Wire Wire Line
 	2050 5650 1850 5650
 Wire Wire Line
@@ -2554,11 +2524,11 @@ NoConn ~ 11550 7800
 NoConn ~ 11850 7700
 NoConn ~ 11850 7600
 NoConn ~ 11850 7500
-Text GLabel 5050 8650 3    60   Input ~ 0
+Text GLabel 1850 3950 0    60   Input ~ 0
 GPI15
 Wire Wire Line
-	5050 8650 5050 8150
-Text Label 5050 8150 3    10   ~ 0
+	1850 3950 2050 3950
+Text Label 2040 3950 2    10   ~ 0
 GPI15
 Text Label 7450 7150 0    10   ~ 0
 3.3V
@@ -2566,6 +2536,6 @@ Text Label 8850 7075 1    10   ~ 0
 3.3V
 Wire Wire Line
 	1650 5350 2050 5350
-NoConn ~ 2050 3950
-NoConn ~ 2050 4750
+NoConn ~ 4650 8150
+NoConn ~ 5050 8150
 $EndSCHEMATC
